@@ -48,22 +48,22 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.dolarBtn:
                 url = "http://api.promasters.net.br/cotacao/v1/valores?moedas=USD&alt=json";
                 textView.setTextColor(getResources().getColor(R.color.colorDolar));
-                textView1.setText("Dólar");
+                textView1.setText(R.string.dolar);
                 break;
             case R.id.bitcoinBt:
                 url = "http://api.promasters.net.br/cotacao/v1/valores?moedas=BTC&alt=json";
                 textView.setTextColor(getResources().getColor(R.color.colorBitcoin));
-                textView1.setText("Bitcoin");
+                textView1.setText(R.string.bitcoin);
                 break;
             case R.id.euroBt:
                 url ="http://api.promasters.net.br/cotacao/v1/valores?moedas=EUR&alt=json";
                 textView.setTextColor(getResources().getColor(R.color.colorEuro));
-                textView1.setText("Euro");
+                textView1.setText(R.string.euro);
                 break;
             case R.id.pesoBt:
                 url = "http://api.promasters.net.br/cotacao/v1/valores?moedas=ARS&alt=json";
                 textView.setTextColor(getResources().getColor(R.color.colorPeso));
-                textView1.setText("Peso Argentino");
+                textView1.setText(R.string.peso_argentino);
                 break;
         }
         String [] urls = {url};
