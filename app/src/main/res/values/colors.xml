@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDolar">#a6ba9f</color>
+    <color name="colorEuro">#1183cf</color>
+    <color name="colorBitcoin">#e4152d</color>
+    <color name="colorPeso">#40ff96</color>
+</resources>

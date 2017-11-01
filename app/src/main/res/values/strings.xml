@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cotacao</string>
+    <string name="cota_pt">Cotações</string>
+    <string name="dolar">Dólar</string>
+    <string name="euro">Euro</string>
+    <string name="peso_argentino">Peso Argentino</string>
+    <string name="bitcoin">Bitcoin</string>
+</resources>
